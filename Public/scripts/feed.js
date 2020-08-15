@@ -41,7 +41,9 @@ function displayPosts(json) {
                 </div>`;
     if (e.username === user) {
       text += `<button type="button" class="btn btn-danger mr-1" data-id="${e.id}" style="margin-left:auto;" onclick="deletePost(event);">
-                    <i class="fas fa-times" ></i>
+                    <div class="deletebtn">
+      <i class="fas fa-times" ></i>
+      </div>
                   </button>`;
     }
     text += `<div class="col-md-10">

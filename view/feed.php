@@ -4,6 +4,11 @@
 ?>
 <script>let user='<?php echo $_SESSION['userDetails']; ?>';
 </script>
+<style>
+.deletebtn{
+  pointer-events:none;
+}
+</style>
   <div class="feed">
     <div class="container">
       <div class="row">
