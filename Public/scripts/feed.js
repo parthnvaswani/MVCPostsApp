@@ -1,6 +1,5 @@
-(function () {
-  getPosts();
-})();
+getPosts();
+
 
 async function addPost(e) {
   e.preventDefault();
